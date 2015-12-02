@@ -1,6 +1,21 @@
 ---
 tasks:
-- id: 1
+- id: 2
+  title: cocinar
+  description: muchas cosas ricas y mas
+- id: 3
+  title: nueva
+  description: muchas cosas
+- id: 4
   title: bob
   description: yeah man
-total: 1
+- id: 5
+  title: Hacer la colada
+  description: Lavar, secar, tender y recoger
+- id: 6
+  title: Estudiar
+  description: mucho ruby
+- id: 7
+  title: super pry
+  description: sdfasg
+total: 7
