@@ -24,7 +24,7 @@ class UserCreatesATask < FeatureTest
     create_task
 
     visit '/tasks'
-    find('#1')click_link('Edit')
+    find('#1').click_link('Edit')
     fill_in('task[title]', :with => 'Writing')
     fill_in('task[description]', :with => 'word after word')
     click_button 'Submit'
